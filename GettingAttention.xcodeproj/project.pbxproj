@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D64F10A61BCE228400880C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F10A51BCE228400880C27 /* AppDelegate.swift */; };
+		D64F10A81BCE228400880C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F10A71BCE228400880C27 /* ViewController.swift */; };
+		D64F10AB1BCE228400880C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64F10A91BCE228400880C27 /* Main.storyboard */; };
+		D64F10AD1BCE228400880C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64F10AC1BCE228400880C27 /* Assets.xcassets */; };
+		D64F10B01BCE228400880C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64F10AE1BCE228400880C27 /* LaunchScreen.storyboard */; };
+		D64F10BB1BCE228400880C27 /* GettingAttentionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F10BA1BCE228400880C27 /* GettingAttentionTests.swift */; };
+		D64F10C61BCE228400880C27 /* GettingAttentionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F10C51BCE228400880C27 /* GettingAttentionUITests.swift */; };
+		D64F10D61BCE22A300880C27 /* alertsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = D64F10D41BCE22A300880C27 /* alertsound.wav */; settings = {ASSET_TAGS = (); }; };
+		D64F10D71BCE22A300880C27 /* soundeffect.wav in Resources */ = {isa = PBXBuildFile; fileRef = D64F10D51BCE22A300880C27 /* soundeffect.wav */; settings = {ASSET_TAGS = (); }; };
+		D64F10DE1BCF014B00880C27 /* Bubble Pop Tone.wav in Resources */ = {isa = PBXBuildFile; fileRef = D64F10DD1BCF014B00880C27 /* Bubble Pop Tone.wav */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D64F10B71BCE228400880C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D64F109A1BCE228400880C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64F10A11BCE228400880C27;
+			remoteInfo = GettingAttention;
+		};
+		D64F10C21BCE228400880C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D64F109A1BCE228400880C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64F10A11BCE228400880C27;
+			remoteInfo = GettingAttention;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D64F10A21BCE228400880C27 /* GettingAttention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingAttention.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F10A51BCE228400880C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D64F10A71BCE228400880C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D64F10AA1BCE228400880C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D64F10AC1BCE228400880C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D64F10AF1BCE228400880C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D64F10B11BCE228400880C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64F10B61BCE228400880C27 /* GettingAttentionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingAttentionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F10BA1BCE228400880C27 /* GettingAttentionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingAttentionTests.swift; sourceTree = "<group>"; };
+		D64F10BC1BCE228400880C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64F10C11BCE228400880C27 /* GettingAttentionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingAttentionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F10C51BCE228400880C27 /* GettingAttentionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingAttentionUITests.swift; sourceTree = "<group>"; };
+		D64F10C71BCE228400880C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64F10D41BCE22A300880C27 /* alertsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alertsound.wav; sourceTree = "<group>"; };
+		D64F10D51BCE22A300880C27 /* soundeffect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soundeffect.wav; sourceTree = "<group>"; };
+		D64F10DD1BCF014B00880C27 /* Bubble Pop Tone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bubble Pop Tone.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D64F109F1BCE228400880C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F10B31BCE228400880C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F10BE1BCE228400880C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D64F10991BCE228400880C27 = {
+			isa = PBXGroup;
+			children = (
+				D64F10A41BCE228400880C27 /* GettingAttention */,
+				D64F10B91BCE228400880C27 /* GettingAttentionTests */,
+				D64F10C41BCE228400880C27 /* GettingAttentionUITests */,
+				D64F10A31BCE228400880C27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D64F10A31BCE228400880C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D64F10A21BCE228400880C27 /* GettingAttention.app */,
+				D64F10B61BCE228400880C27 /* GettingAttentionTests.xctest */,
+				D64F10C11BCE228400880C27 /* GettingAttentionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D64F10A41BCE228400880C27 /* GettingAttention */ = {
+			isa = PBXGroup;
+			children = (
+				D64F10A51BCE228400880C27 /* AppDelegate.swift */,
+				D64F10A71BCE228400880C27 /* ViewController.swift */,
+				D64F10A91BCE228400880C27 /* Main.storyboard */,
+				D64F10AC1BCE228400880C27 /* Assets.xcassets */,
+				D64F10AE1BCE228400880C27 /* LaunchScreen.storyboard */,
+				D64F10B11BCE228400880C27 /* Info.plist */,
+				D64F10D31BCE22A300880C27 /* Sounds */,
+			);
+			path = GettingAttention;
+			sourceTree = "<group>";
+		};
+		D64F10B91BCE228400880C27 /* GettingAttentionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D64F10BA1BCE228400880C27 /* GettingAttentionTests.swift */,
+				D64F10BC1BCE228400880C27 /* Info.plist */,
+			);
+			path = GettingAttentionTests;
+			sourceTree = "<group>";
+		};
+		D64F10C41BCE228400880C27 /* GettingAttentionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D64F10C51BCE228400880C27 /* GettingAttentionUITests.swift */,
+				D64F10C71BCE228400880C27 /* Info.plist */,
+			);
+			path = GettingAttentionUITests;
+			sourceTree = "<group>";
+		};
+		D64F10D31BCE22A300880C27 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D64F10DD1BCF014B00880C27 /* Bubble Pop Tone.wav */,
+				D64F10D41BCE22A300880C27 /* alertsound.wav */,
+				D64F10D51BCE22A300880C27 /* soundeffect.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D64F10A11BCE228400880C27 /* GettingAttention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64F10CA1BCE228400880C27 /* Build configuration list for PBXNativeTarget "GettingAttention" */;
+			buildPhases = (
+				D64F109E1BCE228400880C27 /* Sources */,
+				D64F109F1BCE228400880C27 /* Frameworks */,
+				D64F10A01BCE228400880C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GettingAttention;
+			productName = GettingAttention;
+			productReference = D64F10A21BCE228400880C27 /* GettingAttention.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D64F10B51BCE228400880C27 /* GettingAttentionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64F10CD1BCE228400880C27 /* Build configuration list for PBXNativeTarget "GettingAttentionTests" */;
+			buildPhases = (
+				D64F10B21BCE228400880C27 /* Sources */,
+				D64F10B31BCE228400880C27 /* Frameworks */,
+				D64F10B41BCE228400880C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64F10B81BCE228400880C27 /* PBXTargetDependency */,
+			);
+			name = GettingAttentionTests;
+			productName = GettingAttentionTests;
+			productReference = D64F10B61BCE228400880C27 /* GettingAttentionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D64F10C01BCE228400880C27 /* GettingAttentionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64F10D01BCE228400880C27 /* Build configuration list for PBXNativeTarget "GettingAttentionUITests" */;
+			buildPhases = (
+				D64F10BD1BCE228400880C27 /* Sources */,
+				D64F10BE1BCE228400880C27 /* Frameworks */,
+				D64F10BF1BCE228400880C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64F10C31BCE228400880C27 /* PBXTargetDependency */,
+			);
+			name = GettingAttentionUITests;
+			productName = GettingAttentionUITests;
+			productReference = D64F10C11BCE228400880C27 /* GettingAttentionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D64F109A1BCE228400880C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Koby Samuel";
+				TargetAttributes = {
+					D64F10A11BCE228400880C27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D64F10B51BCE228400880C27 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D64F10A11BCE228400880C27;
+					};
+					D64F10C01BCE228400880C27 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D64F10A11BCE228400880C27;
+					};
+				};
+			};
+			buildConfigurationList = D64F109D1BCE228400880C27 /* Build configuration list for PBXProject "GettingAttention" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D64F10991BCE228400880C27;
+			productRefGroup = D64F10A31BCE228400880C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D64F10A11BCE228400880C27 /* GettingAttention */,
+				D64F10B51BCE228400880C27 /* GettingAttentionTests */,
+				D64F10C01BCE228400880C27 /* GettingAttentionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D64F10A01BCE228400880C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F10D71BCE22A300880C27 /* soundeffect.wav in Resources */,
+				D64F10B01BCE228400880C27 /* LaunchScreen.storyboard in Resources */,
+				D64F10DE1BCF014B00880C27 /* Bubble Pop Tone.wav in Resources */,
+				D64F10AD1BCE228400880C27 /* Assets.xcassets in Resources */,
+				D64F10AB1BCE228400880C27 /* Main.storyboard in Resources */,
+				D64F10D61BCE22A300880C27 /* alertsound.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F10B41BCE228400880C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F10BF1BCE228400880C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D64F109E1BCE228400880C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F10A81BCE228400880C27 /* ViewController.swift in Sources */,
+				D64F10A61BCE228400880C27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F10B21BCE228400880C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F10BB1BCE228400880C27 /* GettingAttentionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F10BD1BCE228400880C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F10C61BCE228400880C27 /* GettingAttentionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D64F10B81BCE228400880C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64F10A11BCE228400880C27 /* GettingAttention */;
+			targetProxy = D64F10B71BCE228400880C27 /* PBXContainerItemProxy */;
+		};
+		D64F10C31BCE228400880C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64F10A11BCE228400880C27 /* GettingAttention */;
+			targetProxy = D64F10C21BCE228400880C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D64F10A91BCE228400880C27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64F10AA1BCE228400880C27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D64F10AE1BCE228400880C27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64F10AF1BCE228400880C27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D64F10C81BCE228400880C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D64F10C91BCE228400880C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D64F10CB1BCE228400880C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GettingAttention/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.GettingAttention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D64F10CC1BCE228400880C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GettingAttention/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.GettingAttention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D64F10CE1BCE228400880C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GettingAttentionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.GettingAttentionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingAttention.app/GettingAttention";
+			};
+			name = Debug;
+		};
+		D64F10CF1BCE228400880C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GettingAttentionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.GettingAttentionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingAttention.app/GettingAttention";
+			};
+			name = Release;
+		};
+		D64F10D11BCE228400880C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GettingAttentionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.GettingAttentionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GettingAttention;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D64F10D21BCE228400880C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GettingAttentionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.GettingAttentionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GettingAttention;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D64F109D1BCE228400880C27 /* Build configuration list for PBXProject "GettingAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F10C81BCE228400880C27 /* Debug */,
+				D64F10C91BCE228400880C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64F10CA1BCE228400880C27 /* Build configuration list for PBXNativeTarget "GettingAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F10CB1BCE228400880C27 /* Debug */,
+				D64F10CC1BCE228400880C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D64F10CD1BCE228400880C27 /* Build configuration list for PBXNativeTarget "GettingAttentionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F10CE1BCE228400880C27 /* Debug */,
+				D64F10CF1BCE228400880C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D64F10D01BCE228400880C27 /* Build configuration list for PBXNativeTarget "GettingAttentionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F10D11BCE228400880C27 /* Debug */,
+				D64F10D21BCE228400880C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D64F109A1BCE228400880C27 /* Project object */;
+}
